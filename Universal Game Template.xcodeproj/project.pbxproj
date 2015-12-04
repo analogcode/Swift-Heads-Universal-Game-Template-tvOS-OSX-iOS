@@ -24,6 +24,7 @@
 		9402F4671C12132F00B2C2D7 /* InitScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F4661C12132F00B2C2D7 /* InitScene.swift */; };
 		9402F4681C12132F00B2C2D7 /* InitScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F4661C12132F00B2C2D7 /* InitScene.swift */; };
 		9402F46B1C12193400B2C2D7 /* DefaultScene+touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F46A1C12193400B2C2D7 /* DefaultScene+touches.swift */; };
+		946DB9031C12294300A97D9D /* DefaultScene+touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F46A1C12193400B2C2D7 /* DefaultScene+touches.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -259,6 +260,7 @@
 				9402F4511C120E3500B2C2D7 /* GameScene.swift in Sources */,
 				9402F4531C120E3500B2C2D7 /* GameViewController.swift in Sources */,
 				9402F44D1C120E3500B2C2D7 /* AppDelegate.swift in Sources */,
+				946DB9031C12294300A97D9D /* DefaultScene+touches.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +448,7 @@
 				9402F4451C120E1100B2C2D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9402F45C1C120E3500B2C2D7 /* Build configuration list for PBXNativeTarget "StarterTemplate tvOS" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +457,7 @@
 				9402F45E1C120E3500B2C2D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
