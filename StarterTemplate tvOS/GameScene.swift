@@ -140,12 +140,12 @@ class GameScene: InitScene {
     }
     
     func setupStarParticles() {
-        let path = NSBundle.mainBundle().pathForResource("StarParticle", ofType: "sks")
-        let starParticle = NSKeyedUnarchiver.unarchiveObjectWithFile(path!) as! SKEmitterNode
-        
-        starParticle.position = CGPointMake(self.size.width/2, self.size.height/2)
-        starParticle.zPosition = Layer.Ground.rawValue
-        worldNode.addChild(starParticle)
+        if let path = NSBundle.mainBundle().pathForResource("StarParticle", ofType: "sks") {
+            let starParticle = NSKeyedUnarchiver.unarchiveObjectWithFile(path) as! SKEmitterNode
+            starParticle.position = CGPointMake(self.size.width/2, self.size.height/2)
+            starParticle.zPosition = Layer.Ground.rawValue
+            worldNode.addChild(starParticle)
+        }
     }
     
     func setupGround() {
