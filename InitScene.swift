@@ -11,15 +11,16 @@ import SpriteKit
 class InitScene: SKScene {
     
     // ****************************************************
-    // MARK: - User Interaction
+    // MARK: - Universal User Interaction
     // ****************************************************
     
     // These functions are overridden by subclasses
     // and suplimented by extensions ("Interaction Extensions" group).
+    // Note: There isn't any screen-relative position associated with a touch in tvOS.
     
     // iOS | tvOS | OS/X have different user interactions.
-    // By abstracting out, it opens the door to easily 
-    // add interactions/platforms (e.g. such as OS/X mouse/keyboard)
+    // By abstracting out, it opens the door to easily add
+    // interactions and platforms (e.g. such as OS/X mouse/keyboard)
     
     func userInteractionBegan(location: CGPoint) {
         // Universal interaction began (touches, clicks, etc)
@@ -33,7 +34,4 @@ class InitScene: SKScene {
         // Universal interaction ended (touches, clicks, etc)
     }
     
-    func thumbStickEvent(event: String, point: CGPoint) {
-        // tvOS stick event
-    }
 }

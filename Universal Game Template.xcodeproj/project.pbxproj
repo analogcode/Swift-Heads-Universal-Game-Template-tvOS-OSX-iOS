@@ -23,8 +23,8 @@
 		9402F4631C12109200B2C2D7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F4501C120E3500B2C2D7 /* GameScene.swift */; };
 		9402F4671C12132F00B2C2D7 /* InitScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F4661C12132F00B2C2D7 /* InitScene.swift */; };
 		9402F4681C12132F00B2C2D7 /* InitScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F4661C12132F00B2C2D7 /* InitScene.swift */; };
-		9402F46B1C12193400B2C2D7 /* DefaultScene+touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F46A1C12193400B2C2D7 /* DefaultScene+touches.swift */; };
-		946DB9031C12294300A97D9D /* DefaultScene+touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F46A1C12193400B2C2D7 /* DefaultScene+touches.swift */; };
+		9402F46B1C12193400B2C2D7 /* InitScene+touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F46A1C12193400B2C2D7 /* InitScene+touches.swift */; };
+		946DB9031C12294300A97D9D /* InitScene+touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F46A1C12193400B2C2D7 /* InitScene+touches.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +45,7 @@
 		9402F4591C120E3500B2C2D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9402F45B1C120E3500B2C2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9402F4661C12132F00B2C2D7 /* InitScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitScene.swift; sourceTree = "<group>"; };
-		9402F46A1C12193400B2C2D7 /* DefaultScene+touches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DefaultScene+touches.swift"; sourceTree = "<group>"; };
+		9402F46A1C12193400B2C2D7 /* InitScene+touches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InitScene+touches.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 		9402F45F1C120EC400B2C2D7 /* Universal */ = {
 			isa = PBXGroup;
 			children = (
-				9402F46E1C12195100B2C2D7 /* Interaction Extensions */,
+				9402F46E1C12195100B2C2D7 /* Extensions */,
 				9402F46D1C12193E00B2C2D7 /* Scenes */,
 			);
 			name = Universal;
@@ -132,12 +132,12 @@
 			name = Scenes;
 			sourceTree = "<group>";
 		};
-		9402F46E1C12195100B2C2D7 /* Interaction Extensions */ = {
+		9402F46E1C12195100B2C2D7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				9402F46A1C12193400B2C2D7 /* DefaultScene+touches.swift */,
+				9402F46A1C12193400B2C2D7 /* InitScene+touches.swift */,
 			);
-			name = "Interaction Extensions";
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +246,7 @@
 			files = (
 				9402F4671C12132F00B2C2D7 /* InitScene.swift in Sources */,
 				9402F4631C12109200B2C2D7 /* GameScene.swift in Sources */,
-				9402F46B1C12193400B2C2D7 /* DefaultScene+touches.swift in Sources */,
+				9402F46B1C12193400B2C2D7 /* InitScene+touches.swift in Sources */,
 				9402F4371C120E1100B2C2D7 /* GameViewController.swift in Sources */,
 				9402F4311C120E1100B2C2D7 /* AppDelegate.swift in Sources */,
 			);
@@ -260,7 +260,7 @@
 				9402F4511C120E3500B2C2D7 /* GameScene.swift in Sources */,
 				9402F4531C120E3500B2C2D7 /* GameViewController.swift in Sources */,
 				9402F44D1C120E3500B2C2D7 /* AppDelegate.swift in Sources */,
-				946DB9031C12294300A97D9D /* DefaultScene+touches.swift in Sources */,
+				946DB9031C12294300A97D9D /* InitScene+touches.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
