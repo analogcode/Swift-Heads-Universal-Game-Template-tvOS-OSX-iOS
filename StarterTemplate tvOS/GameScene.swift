@@ -1,6 +1,6 @@
 //
 //  GameScene.swift
-//  StarterTemplate tvOS
+//  StarterTemplate tvOS/iOS/OSX
 //
 //  Created by Matthew Fecher on 12/12/15.
 //  Copyright (c) 2015 Denver Swift Heads. All rights reserved.
@@ -57,7 +57,9 @@ class GameScene: InitScene {
     // *************************************************************
     
     override func didMoveToView(view: SKView) {
-        self.physicsBody = SKPhysicsBody(edgeLoopFromRect: self.frame)
+        
+       
+      
         setupScene()
     }
     
@@ -109,11 +111,10 @@ class GameScene: InitScene {
             // update code gets called here
             break
         }
-        
     }
     
     // *************************************************************
-    // MARK: - Demo Setup Code
+    // MARK: - Demo Setup Code - Can be deleted
     // *************************************************************
     
     // Setup Scenes/Nodes
@@ -126,6 +127,7 @@ class GameScene: InitScene {
     }
     
     func setupWorld() {
+        self.physicsBody = SKPhysicsBody(edgeLoopFromRect: self.frame)
         self.physicsWorld.gravity = CGVectorMake(0, -2.5);
         addChild(worldNode)
     }
@@ -137,10 +139,19 @@ class GameScene: InitScene {
         worldNode.addChild(background)
     }
     
+    func setupStarParticles() {
+        let path = NSBundle.mainBundle().pathForResource("StarParticle", ofType: "sks")
+        let starParticle = NSKeyedUnarchiver.unarchiveObjectWithFile(path!) as! SKEmitterNode
+        
+        starParticle.position = CGPointMake(self.size.width/2, self.size.height/2)
+        starParticle.zPosition = Layer.Ground.rawValue
+        worldNode.addChild(starParticle)
+    }
+    
     func setupGround() {
         let ground = SKSpriteNode(imageNamed: "Ground2")
         ground.zPosition = Layer.Ground.rawValue
-        ground.position = CGPoint(x: size.width/2, y: ground.frame.height/5)
+        ground.position = CGPoint(x: size.width/2, y: ground.frame.height/4)
         
         // Add physics body for ground
         ground.physicsBody = SKPhysicsBody(rectangleOfSize: ground.size)
@@ -162,7 +173,7 @@ class GameScene: InitScene {
         ship.physicsBody?.categoryBitMask = PhysicsCategory.Hero
         ship.physicsBody?.collisionBitMask = PhysicsCategory.Ground
         
-        // Ship starts out non-dynamic until Play state starts
+        // Ship starts out non-dynamic until Play starts
         ship.physicsBody?.dynamic = false
         
         worldNode.addChild(ship)
@@ -188,14 +199,13 @@ class GameScene: InitScene {
     
     
     // *************************************************************
-    // MARK: - Demo Gameplay Code
+    // MARK: - Demo Gameplay Code - Can be deleted
     // *************************************************************
     
     func fireThrusters() {
         // Apply impulse
         ship.physicsBody?.velocity = CGVectorMake(0, kImpulse/2)
         ship.physicsBody?.applyImpulse(CGVectorMake(0, kImpulse))
-        print("Thrusters Engage!")
     }
     
     // *************************************************************
@@ -208,6 +218,9 @@ class GameScene: InitScene {
         
         // Make ship dynamic
         ship.physicsBody?.dynamic = true
+
+        // Setup star particles
+        setupStarParticles()
         
         // Remove Tutorial text
         worldNode.enumerateChildNodesWithName("Tutorial", usingBlock: { node, stop in
@@ -217,5 +230,6 @@ class GameScene: InitScene {
                 ]))
         })
     }
+   
 
 }
