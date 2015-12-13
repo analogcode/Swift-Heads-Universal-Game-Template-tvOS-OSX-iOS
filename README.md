@@ -4,8 +4,8 @@ Create a game to run on iOS, OS/X and tvOS with a single code base!
 
 This is a starter project to allow you to build a universal game that will run on:
 
-**1. tvOS
-2. iOS
+**1. tvOS  
+2. iOS  
 3. OS/X**
 
 Create a game that will run on three platforms with one code base!
