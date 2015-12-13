@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9400FD981C1E1D74007FC1E7 /* sfx_point.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9400FD961C1E1D74007FC1E7 /* sfx_point.wav */; };
+		9400FD991C1E1D74007FC1E7 /* sfx_point.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9400FD961C1E1D74007FC1E7 /* sfx_point.wav */; };
+		9400FD9A1C1E1D74007FC1E7 /* SillyGameMusic_120bpm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9400FD971C1E1D74007FC1E7 /* SillyGameMusic_120bpm.mp3 */; };
+		9400FD9B1C1E1D74007FC1E7 /* SillyGameMusic_120bpm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9400FD971C1E1D74007FC1E7 /* SillyGameMusic_120bpm.mp3 */; };
 		9402F4311C120E1100B2C2D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F4301C120E1100B2C2D7 /* AppDelegate.swift */; };
 		9402F4371C120E1100B2C2D7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F4361C120E1100B2C2D7 /* GameViewController.swift */; };
 		9402F43A1C120E1100B2C2D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9402F4381C120E1100B2C2D7 /* Main.storyboard */; };
@@ -35,6 +39,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9400FD961C1E1D74007FC1E7 /* sfx_point.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = sfx_point.wav; path = Sounds/sfx_point.wav; sourceTree = "<group>"; };
+		9400FD971C1E1D74007FC1E7 /* SillyGameMusic_120bpm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SillyGameMusic_120bpm.mp3; path = Sounds/SillyGameMusic_120bpm.mp3; sourceTree = "<group>"; };
 		9402F42D1C120E1000B2C2D7 /* StarterTemplate iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarterTemplate iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9402F4301C120E1100B2C2D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9402F4361C120E1100B2C2D7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -171,6 +177,8 @@
 		943373261C1DC2B500D222D6 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				9400FD961C1E1D74007FC1E7 /* sfx_point.wav */,
+				9400FD971C1E1D74007FC1E7 /* SillyGameMusic_120bpm.mp3 */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -268,6 +276,8 @@
 				94DB78901C1CE7CD00DD05B7 /* spark.png in Resources */,
 				94DB788F1C1CE7CD00DD05B7 /* StarParticle.sks in Resources */,
 				9402F43F1C120E1100B2C2D7 /* LaunchScreen.storyboard in Resources */,
+				9400FD9A1C1E1D74007FC1E7 /* SillyGameMusic_120bpm.mp3 in Resources */,
+				9400FD981C1E1D74007FC1E7 /* sfx_point.wav in Resources */,
 				943373271C1DC45400D222D6 /* Assets.xcassets in Resources */,
 				943373291C1DC99000D222D6 /* JetParticle.sks in Resources */,
 				943373231C1DC1DE00D222D6 /* Game.xcassets in Resources */,
@@ -282,8 +292,10 @@
 				94454C8F1C1CEEB10035BFA9 /* spark.png in Resources */,
 				9433732A1C1DCE6500D222D6 /* JetParticle.sks in Resources */,
 				9402F4621C12108E00B2C2D7 /* GameScene.sks in Resources */,
+				9400FD991C1E1D74007FC1E7 /* sfx_point.wav in Resources */,
 				9402F4581C120E3500B2C2D7 /* Main.storyboard in Resources */,
 				9402F45A1C120E3500B2C2D7 /* Assets.xcassets in Resources */,
+				9400FD9B1C1E1D74007FC1E7 /* SillyGameMusic_120bpm.mp3 in Resources */,
 				943373241C1DC1DE00D222D6 /* Game.xcassets in Resources */,
 				94454C901C1CEED60035BFA9 /* StarParticle.sks in Resources */,
 			);
