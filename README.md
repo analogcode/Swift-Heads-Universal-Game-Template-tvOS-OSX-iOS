@@ -1,17 +1,17 @@
-# Universal Game Template
+# Universal Sprite Kit Game Template
 Create a game to run on iOS, OS/X and tvOS with a single code base!
 ![tvOS](http://i.giphy.com/3o8dp0eJZvEuNHVlGU.gif)
 
 This is a starter project to allow you to build a universal game that will run on:
 
-1. tvOS
+**1. tvOS
 2. iOS
-3. OS/X
+3. OS/X**
 
 Create a game that will run on three platforms with one code base!
 
 ### Presentation
-This is a suplimentary project to Matthew Fecher's ([@goFecher](http://twitter.com/goFecher)) presentation on Swift Game Design.  
+This is a suplimentary project to Matthew Fecher's ([@goFecher](http://twitter.com/goFecher)) presentation on Swift & Sprite Kit Game Design.  
 **Denver Swift Meetup, January 14, 2016 @ Galvanize:** [Details Here](http://www.meetup.com/Denver-Swift-Heads/events/225216170/)
 
 ### Music
