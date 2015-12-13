@@ -8,7 +8,7 @@ This is a starter project to allow you to build a universal game that will run o
 2. iOS  
 3. OS/X**
 
-Create a game that will run on three platforms with one code base!
+This code will run on all three platforms with one code base! 
 
 ### Presentation
 This is a suplimentary project to Matthew Fecher's ([@goFecher](http://twitter.com/goFecher)) presentation on Swift & Sprite Kit Game Design.  
