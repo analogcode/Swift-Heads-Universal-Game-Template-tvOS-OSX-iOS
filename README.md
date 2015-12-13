@@ -1,6 +1,6 @@
 # Universal Game Template
 Create a game to run on iOS, OS/X and tvOS with a single codebase!
-![tvOS]({{site.baseurl}}/http://i.giphy.com/26tP2uHkokUjqEgEg.gif)
+![tvOS](http://i.giphy.com/26tP2uHkokUjqEgEg.gif)
 
 This is a starter project to allow you to build a universal game that will run on both tvOS, iOS, and OS/X with one codebase.  
 
