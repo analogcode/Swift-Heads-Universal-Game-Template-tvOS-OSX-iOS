@@ -53,9 +53,10 @@ class GameScene: InitScene {
     // Demo Specific
     let ship = SKSpriteNode(imageNamed:"Spaceship")
     let coinDropSound = SKAction.playSoundFileNamed("sfx_point.wav", waitForCompletion: false)
+    let musicOn = true
+    let sktAudio = SKTAudio()
     var jetParticle = SKEmitterNode()
     var userTouching = false
-   
     
     // *************************************************************
     // MARK: - didMoveToView
@@ -236,6 +237,10 @@ class GameScene: InitScene {
         }
     }
     
+    func playBackgroundMusic() {
+        sktAudio.playBackgroundMusic("SillyGameMusic_120bpm.mp3")
+    }
+    
     // *************************************************************
     // MARK: - Game States
     // *************************************************************
@@ -244,8 +249,11 @@ class GameScene: InitScene {
         // switch gameState
         gameState = .Play
         
-        // Play game start sound
+        // Play game start sound & music
         runAction(coinDropSound)
+        if musicOn {
+            playBackgroundMusic()
+        }
         
         // Make ship dynamic
         ship.physicsBody?.dynamic = true
