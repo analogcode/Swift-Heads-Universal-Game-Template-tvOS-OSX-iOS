@@ -52,7 +52,8 @@ class GameScene: InitScene {
     
     // Demo Specific
     let ship = SKSpriteNode(imageNamed:"Spaceship")
-    var shipEnginesOn = false
+    var jetParticle = SKEmitterNode()
+    var userTouching = false
     
     // *************************************************************
     // MARK: - didMoveToView
@@ -67,14 +68,16 @@ class GameScene: InitScene {
     // *************************************************************
     
     override func userInteractionBegan(location: CGPoint) {
+        
         switch gameState {
         case .Tutorial:
             switchToPlayState()
             break
         case .Play:
-            shipEnginesOn = true
+            userTouching = true
             break
         }
+        
     }
     
     override func userInteractionMoved(location: CGPoint) {
@@ -82,9 +85,7 @@ class GameScene: InitScene {
     }
     
     override func userInteractionEnded(location: CGPoint) {
-        if gameState == .Play {
-            shipEnginesOn = false
-        }
+        userTouching = false
     }
     
     // ***********************************************
@@ -138,12 +139,22 @@ class GameScene: InitScene {
         worldNode.addChild(background)
     }
     
-    func setupStarParticles() {
+    func setupStarParticle() {
         if let path = NSBundle.mainBundle().pathForResource("StarParticle", ofType: "sks") {
             let starParticle = NSKeyedUnarchiver.unarchiveObjectWithFile(path) as! SKEmitterNode
             starParticle.position = CGPointMake(self.size.width/2, self.size.height/2)
             starParticle.zPosition = Layer.Ground.rawValue
             worldNode.addChild(starParticle)
+        }
+    }
+    
+    func setupJetParticle() {
+        if let path = NSBundle.mainBundle().pathForResource("JetParticle", ofType: "sks") {
+            jetParticle = NSKeyedUnarchiver.unarchiveObjectWithFile(path) as! SKEmitterNode
+            jetParticle.position = CGPointMake(0, -ship.frame.size.height)
+            jetParticle.zPosition = Layer.Hero.rawValue
+            jetParticle.numParticlesToEmit = 1
+            ship.addChild(jetParticle)
         }
     }
     
@@ -157,7 +168,6 @@ class GameScene: InitScene {
         ground.physicsBody?.dynamic = false
         ground.physicsBody?.categoryBitMask = PhysicsCategory.Ground
         ground.physicsBody?.collisionBitMask = PhysicsCategory.Hero
-            
         worldNode.addChild(ground)
     }
     
@@ -189,7 +199,7 @@ class GameScene: InitScene {
         
         let label2 = SKLabelNode(fontNamed:"AvenirNext-Regular ")
         label2.zPosition = Layer.UI.rawValue
-        label2.text = "Tap or click to fire burst"
+        label2.text = "Tap or click to begin"
         label2.fontSize = 18
         label2.position = CGPoint(x: size.width/2, y: size.height * 0.55)
         label2.name = "Tutorial"
@@ -205,11 +215,21 @@ class GameScene: InitScene {
         // Apply impulse
         ship.physicsBody?.velocity = CGVectorMake(0, kImpulse/2)
         ship.physicsBody?.applyImpulse(CGVectorMake(0, kImpulse))
+        
+        // Show Jet Stream, zero means infinite particles
+        jetParticle.numParticlesToEmit = 0
+    }
+    
+    func releaseThrusters() {
+        // Sets maximum particles to emmit, fades out emmision with 20 particles
+        jetParticle.numParticlesToEmit = 20
     }
     
     func updateShip() {
-        if shipEnginesOn {
+        if userTouching {
             fireThrusters()
+        } else {
+            releaseThrusters()
         }
     }
     
@@ -224,8 +244,9 @@ class GameScene: InitScene {
         // Make ship dynamic
         ship.physicsBody?.dynamic = true
 
-        // Setup star particles
-        setupStarParticles()
+        // Setup particles
+        setupStarParticle()
+        setupJetParticle()
         
         // Remove Tutorial text
         worldNode.enumerateChildNodesWithName("Tutorial", usingBlock: { node, stop in
@@ -235,6 +256,5 @@ class GameScene: InitScene {
                 ]))
         })
     }
-   
 
 }

@@ -25,6 +25,8 @@
 		943373231C1DC1DE00D222D6 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9402F4541C120E3500B2C2D7 /* Game.xcassets */; };
 		943373241C1DC1DE00D222D6 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9402F4541C120E3500B2C2D7 /* Game.xcassets */; };
 		943373271C1DC45400D222D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9402F43B1C120E1100B2C2D7 /* Assets.xcassets */; };
+		943373291C1DC99000D222D6 /* JetParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 943373281C1DC99000D222D6 /* JetParticle.sks */; };
+		9433732A1C1DCE6500D222D6 /* JetParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 943373281C1DC99000D222D6 /* JetParticle.sks */; };
 		94454C8F1C1CEEB10035BFA9 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 94DB788E1C1CE7CD00DD05B7 /* spark.png */; };
 		94454C901C1CEED60035BFA9 /* StarParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 94DB788D1C1CE7CD00DD05B7 /* StarParticle.sks */; };
 		946DB9031C12294300A97D9D /* InitScene+touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F46A1C12193400B2C2D7 /* InitScene+touches.swift */; };
@@ -51,6 +53,7 @@
 		9402F45B1C120E3500B2C2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9402F4661C12132F00B2C2D7 /* InitScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitScene.swift; sourceTree = "<group>"; };
 		9402F46A1C12193400B2C2D7 /* InitScene+touches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InitScene+touches.swift"; sourceTree = "<group>"; };
+		943373281C1DC99000D222D6 /* JetParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = JetParticle.sks; sourceTree = "<group>"; };
 		94DB788D1C1CE7CD00DD05B7 /* StarParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarParticle.sks; sourceTree = "<group>"; };
 		94DB788E1C1CE7CD00DD05B7 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -177,6 +180,7 @@
 			children = (
 				94DB788D1C1CE7CD00DD05B7 /* StarParticle.sks */,
 				94DB788E1C1CE7CD00DD05B7 /* spark.png */,
+				943373281C1DC99000D222D6 /* JetParticle.sks */,
 			);
 			name = Particles;
 			sourceTree = "<group>";
@@ -265,6 +269,7 @@
 				94DB788F1C1CE7CD00DD05B7 /* StarParticle.sks in Resources */,
 				9402F43F1C120E1100B2C2D7 /* LaunchScreen.storyboard in Resources */,
 				943373271C1DC45400D222D6 /* Assets.xcassets in Resources */,
+				943373291C1DC99000D222D6 /* JetParticle.sks in Resources */,
 				943373231C1DC1DE00D222D6 /* Game.xcassets in Resources */,
 				9402F43A1C120E1100B2C2D7 /* Main.storyboard in Resources */,
 			);
@@ -275,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94454C8F1C1CEEB10035BFA9 /* spark.png in Resources */,
+				9433732A1C1DCE6500D222D6 /* JetParticle.sks in Resources */,
 				9402F4621C12108E00B2C2D7 /* GameScene.sks in Resources */,
 				9402F4581C120E3500B2C2D7 /* Main.storyboard in Resources */,
 				9402F45A1C120E3500B2C2D7 /* Assets.xcassets in Resources */,
