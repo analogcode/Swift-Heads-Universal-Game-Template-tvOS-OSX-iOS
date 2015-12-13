@@ -11,7 +11,7 @@ This is a starter project to allow you to build a universal game that will run o
 This code will run on all three platforms with one code base! 
 
 ### Presentation
-This is a suplimentary project to Matthew Fecher's ([@goFecher](http://twitter.com/goFecher)) presentation on Swift & Sprite Kit Game Design.  
+This is a supplementary project to Matthew Fecher's ([@goFecher](http://twitter.com/goFecher)) presentation on Swift & Sprite Kit Game Design.  
 **Denver Swift Meetup, January 14, 2016 @ Galvanize:** [Details Here](http://www.meetup.com/Denver-Swift-Heads/events/225216170/)
 
 ### Music
