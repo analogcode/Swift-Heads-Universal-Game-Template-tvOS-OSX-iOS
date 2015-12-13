@@ -16,7 +16,7 @@ This is a supplementary project to Matthew Fecher's ([@goFecher](http://twitter.
 
 ### Music
 
-This starter template includes four (4) background music songs created as a part of another open-source Synthesizer project I am working on that will be released shortly. You are free to use these songs in any of your apps. However, you may not resell them.
+This starter template includes four (4) songs created as a part of an open-source Synthesizer project I am working on (stay tuned)! You are free to use these background music songs in any of your apps. However, you may not resell them.
 
 ### Additional Library
 
