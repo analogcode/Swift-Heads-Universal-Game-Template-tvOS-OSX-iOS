@@ -20,6 +20,4 @@ This starter template includes four (4) background music songs created as a part
 
 ### Additional Library
 
-This starter template includes Ray Wenderlich's excellent [SKUtils Library](https://github.com/raywenderlich/SKTUtils). These routines include several helpful custom effects, math, conversion, and other useful Sprite Kit routines.
-
-
+This starter template includes Ray Wenderlich's excellent [SKTUtils Library](https://github.com/raywenderlich/SKTUtils). These routines include several helpful custom effects, math, conversion, and other useful Sprite Kit routines.
