@@ -24,6 +24,8 @@
 		9402F4671C12132F00B2C2D7 /* InitScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F4661C12132F00B2C2D7 /* InitScene.swift */; };
 		9402F4681C12132F00B2C2D7 /* InitScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F4661C12132F00B2C2D7 /* InitScene.swift */; };
 		9402F46B1C12193400B2C2D7 /* InitScene+touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F46A1C12193400B2C2D7 /* InitScene+touches.swift */; };
+		94454C8F1C1CEEB10035BFA9 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 94DB788E1C1CE7CD00DD05B7 /* spark.png */; };
+		94454C901C1CEED60035BFA9 /* StarParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 94DB788D1C1CE7CD00DD05B7 /* StarParticle.sks */; };
 		946DB9031C12294300A97D9D /* InitScene+touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F46A1C12193400B2C2D7 /* InitScene+touches.swift */; };
 		94DB788F1C1CE7CD00DD05B7 /* StarParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 94DB788D1C1CE7CD00DD05B7 /* StarParticle.sks */; };
 		94DB78901C1CE7CD00DD05B7 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 94DB788E1C1CE7CD00DD05B7 /* spark.png */; };
@@ -246,10 +248,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94454C8F1C1CEEB10035BFA9 /* spark.png in Resources */,
 				9402F4621C12108E00B2C2D7 /* GameScene.sks in Resources */,
 				9402F4581C120E3500B2C2D7 /* Main.storyboard in Resources */,
 				9402F45A1C120E3500B2C2D7 /* Assets.xcassets in Resources */,
 				9402F4551C120E3500B2C2D7 /* Game.xcassets in Resources */,
+				94454C901C1CEED60035BFA9 /* StarParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
