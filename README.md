@@ -1,8 +1,14 @@
 # Universal Game Template
-Create a game to run on iOS, OS/X and tvOS with a single codebase!
-![tvOS](http://i.giphy.com/26tP2uHkokUjqEgEg.gif)
+Create a game to run on iOS, OS/X and tvOS with a single code base!
+![tvOS](http://i.giphy.com/3o8dp0eJZvEuNHVlGU.gif)
 
-This is a starter project to allow you to build a universal game that will run on both tvOS, iOS, and OS/X with one codebase.  
+This is a starter project to allow you to build a universal game that will run on:
+
+1. tvOS
+2. iOS
+3. OS/X
+
+Create a game that will run on three platforms with one code base!
 
 ### Presentation
 This is a suplimentary project to Matthew Fecher's ([@goFecher](http://twitter.com/goFecher)) presentation on Swift Game Design.  
