@@ -54,9 +54,11 @@ class GameScene: InitScene {
     let ship = SKSpriteNode(imageNamed:"Spaceship")
     let coinDropSound = SKAction.playSoundFileNamed("sfx_point.wav", waitForCompletion: false)
     let musicOn = true
+    let kIntroSongName = "PositiveGameMusic.mp3"
     let sktAudio = SKTAudio()
     var jetParticle = SKEmitterNode()
     var userTouching = false
+    var backgroundSongs: [String] = []
     
     // *************************************************************
     // MARK: - didMoveToView
@@ -80,7 +82,6 @@ class GameScene: InitScene {
             userTouching = true
             break
         }
-        
     }
     
     override func userInteractionMoved(location: CGPoint) {
@@ -124,10 +125,15 @@ class GameScene: InitScene {
     func setupScene() {
         setupWorld()
         setupBackground()
+        setupBackgroundMusic()
         setupGround()
         setupHero()
         setupJetParticle()
         setupTutorial()
+        
+        if musicOn {
+            playBackgroundMusic(kIntroSongName)
+        }
     }
     
     func setupWorld() {
@@ -210,6 +216,9 @@ class GameScene: InitScene {
         worldNode.addChild(label2)
     }
     
+    func setupBackgroundMusic() {
+        backgroundSongs = ["SillyGameMusic_120bpm.mp3", "Serious-Game-Music.mp3", "UplifitingGameMusic.mp3"]
+    }
     
     // *************************************************************
     // MARK: - Demo Gameplay Code - Can be deleted
@@ -237,8 +246,14 @@ class GameScene: InitScene {
         }
     }
     
-    func playBackgroundMusic() {
-        sktAudio.playBackgroundMusic("SillyGameMusic_120bpm.mp3")
+    func playRandomBackgroundMusic() {
+        let randomSong = Int.random(min: 0, max: backgroundSongs.count-1)
+        sktAudio.playBackgroundMusic(backgroundSongs[randomSong])
+        print("Background music: \(backgroundSongs[randomSong])")
+    }
+    
+    func playBackgroundMusic(songName: String) {
+        sktAudio.playBackgroundMusic(songName)
     }
     
     // *************************************************************
@@ -252,7 +267,7 @@ class GameScene: InitScene {
         // Play game start sound & music
         runAction(coinDropSound)
         if musicOn {
-            playBackgroundMusic()
+            playRandomBackgroundMusic()
         }
         
         // Make ship dynamic
