@@ -123,6 +123,7 @@ class GameScene: InitScene {
         setupBackground()
         setupGround()
         setupHero()
+        setupJetParticle()
         setupTutorial()
     }
     
@@ -153,7 +154,7 @@ class GameScene: InitScene {
             jetParticle = NSKeyedUnarchiver.unarchiveObjectWithFile(path) as! SKEmitterNode
             jetParticle.position = CGPointMake(0, -ship.frame.size.height)
             jetParticle.zPosition = Layer.Hero.rawValue
-            jetParticle.numParticlesToEmit = 1
+            jetParticle.particleBirthRate = 50
             ship.addChild(jetParticle)
         }
     }
@@ -246,7 +247,7 @@ class GameScene: InitScene {
 
         // Setup particles
         setupStarParticle()
-        setupJetParticle()
+        jetParticle.particleBirthRate = 450
         
         // Remove Tutorial text
         worldNode.enumerateChildNodesWithName("Tutorial", usingBlock: { node, stop in
