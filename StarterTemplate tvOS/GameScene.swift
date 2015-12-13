@@ -48,18 +48,17 @@ class GameScene: InitScene {
     var dt: NSTimeInterval = 0
     var lastUpdateTime: NSTimeInterval = 0
     var gameState: GameState = .Tutorial
-    
     let worldNode = SKNode()
+    
+    // Demo Specific
     let ship = SKSpriteNode(imageNamed:"Spaceship")
-
+    var shipEnginesOn = false
+    
     // *************************************************************
     // MARK: - didMoveToView
     // *************************************************************
     
     override func didMoveToView(view: SKView) {
-        
-       
-      
         setupScene()
     }
     
@@ -68,13 +67,12 @@ class GameScene: InitScene {
     // *************************************************************
     
     override func userInteractionBegan(location: CGPoint) {
-        
         switch gameState {
         case .Tutorial:
             switchToPlayState()
             break
         case .Play:
-            fireThrusters()
+            shipEnginesOn = true
             break
         }
     }
@@ -84,7 +82,9 @@ class GameScene: InitScene {
     }
     
     override func userInteractionEnded(location: CGPoint) {
-      
+        if gameState == .Play {
+            shipEnginesOn = false
+        }
     }
     
     // ***********************************************
@@ -105,10 +105,9 @@ class GameScene: InitScene {
         // Determine update based on gameState
         switch gameState {
         case .Tutorial:
-            // update code gets called here
             break
         case .Play:
-            // update code gets called here
+            updateShip()
             break
         }
     }
@@ -206,6 +205,12 @@ class GameScene: InitScene {
         // Apply impulse
         ship.physicsBody?.velocity = CGVectorMake(0, kImpulse/2)
         ship.physicsBody?.applyImpulse(CGVectorMake(0, kImpulse))
+    }
+    
+    func updateShip() {
+        if shipEnginesOn {
+            fireThrusters()
+        }
     }
     
     // *************************************************************

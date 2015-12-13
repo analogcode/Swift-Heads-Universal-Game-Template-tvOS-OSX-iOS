@@ -24,6 +24,7 @@
 		9402F46B1C12193400B2C2D7 /* InitScene+touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F46A1C12193400B2C2D7 /* InitScene+touches.swift */; };
 		943373231C1DC1DE00D222D6 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9402F4541C120E3500B2C2D7 /* Game.xcassets */; };
 		943373241C1DC1DE00D222D6 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9402F4541C120E3500B2C2D7 /* Game.xcassets */; };
+		943373271C1DC45400D222D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9402F43B1C120E1100B2C2D7 /* Assets.xcassets */; };
 		94454C8F1C1CEEB10035BFA9 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 94DB788E1C1CE7CD00DD05B7 /* spark.png */; };
 		94454C901C1CEED60035BFA9 /* StarParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 94DB788D1C1CE7CD00DD05B7 /* StarParticle.sks */; };
 		946DB9031C12294300A97D9D /* InitScene+touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402F46A1C12193400B2C2D7 /* InitScene+touches.swift */; };
@@ -263,6 +264,7 @@
 				94DB78901C1CE7CD00DD05B7 /* spark.png in Resources */,
 				94DB788F1C1CE7CD00DD05B7 /* StarParticle.sks in Resources */,
 				9402F43F1C120E1100B2C2D7 /* LaunchScreen.storyboard in Resources */,
+				943373271C1DC45400D222D6 /* Assets.xcassets in Resources */,
 				943373231C1DC1DE00D222D6 /* Game.xcassets in Resources */,
 				9402F43A1C120E1100B2C2D7 /* Main.storyboard in Resources */,
 			);
