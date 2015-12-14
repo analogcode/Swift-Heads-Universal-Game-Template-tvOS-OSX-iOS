@@ -8,7 +8,13 @@ This is a starter project to allow you to build a universal game that will run o
 2. iOS  
 3. OS/X**
 
-This code will run on all three platforms with one code base! 
+### Notes
+
+- This code will run on all three platforms with one code base! 
+- It shares assets and Game Scenes under the "Universal Game" folder. 
+- This is meant to be a starter template (the example game play can easily be replaced).
+- User interactions (touches & mouse clicks) are abstracted out in the "Universal Game" section. This allows everything to be run from a shared code base.  
+- **Write once, run on three platforms!**
 
 ### Presentation
 This is a supplementary project to Matthew Fecher's ([@goFecher](http://twitter.com/goFecher)) presentation on Swift & Sprite Kit Game Design.  
