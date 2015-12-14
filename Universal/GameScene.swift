@@ -1,6 +1,6 @@
 //
 //  GameScene.swift
-//  StarterTemplate tvOS/iOS/OSX
+//  Game Template tvOS/iOS/OSX
 //
 //  Created by Matthew Fecher on 12/12/15.
 //  Copyright (c) 2015 Denver Swift Heads. All rights reserved.

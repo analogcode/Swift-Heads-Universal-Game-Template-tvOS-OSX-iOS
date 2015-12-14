@@ -1,6 +1,6 @@
 //
 //  GameViewController.swift
-//  StarterTemplate tvOS
+//  Game Template tvOS
 //
 //  Created by Matthew Fecher on 12/4/15.
 //  Copyright (c) 2015 Denver Swift Heads. All rights reserved.
