@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Game Template OSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>StarterTemplate iOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>9402F4491C120E3500B2C2D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>94D409371C1E3D460043171E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
