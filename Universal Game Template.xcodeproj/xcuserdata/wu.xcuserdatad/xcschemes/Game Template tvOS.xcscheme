@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9402F4491C120E3500B2C2D7"
-               BuildableName = "StarterTemplate tvOS.app"
-               BlueprintName = "StarterTemplate tvOS"
+               BuildableName = "Game Template tvOS.app"
+               BlueprintName = "Game Template tvOS"
                ReferencedContainer = "container:Universal Game Template.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9402F4491C120E3500B2C2D7"
-            BuildableName = "StarterTemplate tvOS.app"
-            BlueprintName = "StarterTemplate tvOS"
+            BuildableName = "Game Template tvOS.app"
+            BlueprintName = "Game Template tvOS"
             ReferencedContainer = "container:Universal Game Template.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9402F4491C120E3500B2C2D7"
-            BuildableName = "StarterTemplate tvOS.app"
-            BlueprintName = "StarterTemplate tvOS"
+            BuildableName = "Game Template tvOS.app"
+            BlueprintName = "Game Template tvOS"
             ReferencedContainer = "container:Universal Game Template.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9402F4491C120E3500B2C2D7"
-            BuildableName = "StarterTemplate tvOS.app"
-            BlueprintName = "StarterTemplate tvOS"
+            BuildableName = "Game Template tvOS.app"
+            BlueprintName = "Game Template tvOS"
             ReferencedContainer = "container:Universal Game Template.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

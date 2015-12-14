@@ -111,14 +111,14 @@
 		9400FDA71C1E1E47007FC1E7 /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
 		9400FDA81C1E1E47007FC1E7 /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
 		9400FDA91C1E1E47007FC1E7 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
-		9402F42D1C120E1000B2C2D7 /* StarterTemplate iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarterTemplate iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9402F42D1C120E1000B2C2D7 /* Game Template iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Template iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9402F4301C120E1100B2C2D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9402F4361C120E1100B2C2D7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		9402F4391C120E1100B2C2D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9402F43B1C120E1100B2C2D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9402F43E1C120E1100B2C2D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9402F4401C120E1100B2C2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9402F44A1C120E3500B2C2D7 /* StarterTemplate tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarterTemplate tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9402F44A1C120E3500B2C2D7 /* Game Template tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Template tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9402F44C1C120E3500B2C2D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9402F44E1C120E3500B2C2D7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = "StarterTemplate tvOS/GameScene.sks"; sourceTree = "<group>"; };
 		9402F4501C120E3500B2C2D7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = "StarterTemplate tvOS/GameScene.swift"; sourceTree = "<group>"; };
@@ -211,8 +211,8 @@
 		9402F42E1C120E1000B2C2D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9402F42D1C120E1000B2C2D7 /* StarterTemplate iOS.app */,
-				9402F44A1C120E3500B2C2D7 /* StarterTemplate tvOS.app */,
+				9402F42D1C120E1000B2C2D7 /* Game Template iOS.app */,
+				9402F44A1C120E3500B2C2D7 /* Game Template tvOS.app */,
 				94D409381C1E3D460043171E /* Game Template OSX.app */,
 			);
 			name = Products;
@@ -328,9 +328,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9402F42C1C120E1000B2C2D7 /* StarterTemplate iOS */ = {
+		9402F42C1C120E1000B2C2D7 /* Game Template iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9402F4431C120E1100B2C2D7 /* Build configuration list for PBXNativeTarget "StarterTemplate iOS" */;
+			buildConfigurationList = 9402F4431C120E1100B2C2D7 /* Build configuration list for PBXNativeTarget "Game Template iOS" */;
 			buildPhases = (
 				9402F4291C120E1000B2C2D7 /* Sources */,
 				9402F42A1C120E1000B2C2D7 /* Frameworks */,
@@ -340,14 +340,14 @@
 			);
 			dependencies = (
 			);
-			name = "StarterTemplate iOS";
+			name = "Game Template iOS";
 			productName = "Universal Game Template";
-			productReference = 9402F42D1C120E1000B2C2D7 /* StarterTemplate iOS.app */;
+			productReference = 9402F42D1C120E1000B2C2D7 /* Game Template iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9402F4491C120E3500B2C2D7 /* StarterTemplate tvOS */ = {
+		9402F4491C120E3500B2C2D7 /* Game Template tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9402F45C1C120E3500B2C2D7 /* Build configuration list for PBXNativeTarget "StarterTemplate tvOS" */;
+			buildConfigurationList = 9402F45C1C120E3500B2C2D7 /* Build configuration list for PBXNativeTarget "Game Template tvOS" */;
 			buildPhases = (
 				9402F4461C120E3500B2C2D7 /* Sources */,
 				9402F4471C120E3500B2C2D7 /* Frameworks */,
@@ -357,9 +357,9 @@
 			);
 			dependencies = (
 			);
-			name = "StarterTemplate tvOS";
+			name = "Game Template tvOS";
 			productName = "StarterTemplate tvOS";
-			productReference = 9402F44A1C120E3500B2C2D7 /* StarterTemplate tvOS.app */;
+			productReference = 9402F44A1C120E3500B2C2D7 /* Game Template tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		94D409371C1E3D460043171E /* Game Template OSX */ = {
@@ -413,8 +413,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9402F42C1C120E1000B2C2D7 /* StarterTemplate iOS */,
-				9402F4491C120E3500B2C2D7 /* StarterTemplate tvOS */,
+				9402F42C1C120E1000B2C2D7 /* Game Template iOS */,
+				9402F4491C120E3500B2C2D7 /* Game Template tvOS */,
 				94D409371C1E3D460043171E /* Game Template OSX */,
 			);
 		};
@@ -768,7 +768,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9402F4431C120E1100B2C2D7 /* Build configuration list for PBXNativeTarget "StarterTemplate iOS" */ = {
+		9402F4431C120E1100B2C2D7 /* Build configuration list for PBXNativeTarget "Game Template iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9402F4441C120E1100B2C2D7 /* Debug */,
@@ -777,7 +777,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9402F45C1C120E3500B2C2D7 /* Build configuration list for PBXNativeTarget "StarterTemplate tvOS" */ = {
+		9402F45C1C120E3500B2C2D7 /* Build configuration list for PBXNativeTarget "Game Template tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9402F45D1C120E3500B2C2D7 /* Debug */,
@@ -793,6 +793,7 @@
 				94D409481C1E3D460043171E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
