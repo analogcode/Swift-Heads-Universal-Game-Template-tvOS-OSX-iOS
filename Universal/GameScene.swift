@@ -246,6 +246,10 @@ class GameScene: InitScene {
         }
     }
     
+    // *************************************************************
+    // MARK: - Background Music
+    // *************************************************************
+    
     func playRandomBackgroundMusic() {
         let randomSong = Int.random(min: 0, max: backgroundSongs.count-1)
         sktAudio.playBackgroundMusic(backgroundSongs[randomSong])
