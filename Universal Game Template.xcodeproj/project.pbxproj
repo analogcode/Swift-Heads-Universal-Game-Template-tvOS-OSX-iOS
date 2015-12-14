@@ -199,7 +199,7 @@
 		9402F4241C120E1000B2C2D7 = {
 			isa = PBXGroup;
 			children = (
-				9402F45F1C120EC400B2C2D7 /* Universal */,
+				9402F45F1C120EC400B2C2D7 /* Universal Game */,
 				9402F42F1C120E1000B2C2D7 /* Game Template iOS */,
 				9402F44B1C120E3500B2C2D7 /* Game Template tvOS */,
 				94D409391C1E3D460043171E /* Game Template OSX */,
@@ -243,7 +243,7 @@
 			path = "Game Template tvOS";
 			sourceTree = "<group>";
 		};
-		9402F45F1C120EC400B2C2D7 /* Universal */ = {
+		9402F45F1C120EC400B2C2D7 /* Universal Game */ = {
 			isa = PBXGroup;
 			children = (
 				943373221C1DC1D100D222D6 /* Assets */,
@@ -251,7 +251,7 @@
 				9402F46D1C12193E00B2C2D7 /* Scenes */,
 				94DB788C1C1CE79B00DD05B7 /* Particles */,
 			);
-			name = Universal;
+			name = "Universal Game";
 			sourceTree = "<group>";
 		};
 		9402F46D1C12193E00B2C2D7 /* Scenes */ = {
