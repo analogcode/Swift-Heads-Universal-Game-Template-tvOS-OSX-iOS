@@ -20,9 +20,9 @@ This is a starter project to allow you to build a universal game that will run o
 This is a supplementary project to Matthew Fecher's ([@goFecher](http://twitter.com/goFecher)) presentation on Swift & Sprite Kit Game Design.  
 **DENVER SWIFT HEADS MEETUP, January 14, 2016 @ Galvanize:** [Details Here](http://www.meetup.com/Denver-Swift-Heads/events/225216170/)
 
-### Music
+### Demo Music & Gfx
 
-This starter template includes four (4) songs created as a part of an open-source Synthesizer project I am working on. Stay tuned!  You are free to use these background music songs in any of your apps. However, you may not resell them.
+This starter template includes four (4) songs created as a part of an open-source Synthesizer project I am working on. Stay tuned!  You are free to use these background music songs in any of your apps. The graphics are just for demo purposes.
 
 ### Additional Library
 
