@@ -247,7 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				943373221C1DC1D100D222D6 /* Assets */,
-				9402F46E1C12195100B2C2D7 /* Extensions */,
+				9402F46E1C12195100B2C2D7 /* Interaction Extensions */,
 				9402F46D1C12193E00B2C2D7 /* Scenes */,
 				94DB788C1C1CE79B00DD05B7 /* Particles */,
 			);
@@ -264,13 +264,13 @@
 			name = Scenes;
 			sourceTree = "<group>";
 		};
-		9402F46E1C12195100B2C2D7 /* Extensions */ = {
+		9402F46E1C12195100B2C2D7 /* Interaction Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				9402F46A1C12193400B2C2D7 /* InitScene+Touches.swift */,
 				94D409631C1E3ECF0043171E /* InitScene+Mouse.swift */,
 			);
-			name = Extensions;
+			name = "Interaction Extensions";
 			sourceTree = "<group>";
 		};
 		943373221C1DC1D100D222D6 /* Assets */ = {

@@ -15,6 +15,8 @@ extension InitScene {
     // MARK: - Touches to userInteraction
     // ****************************************************
     
+    // Note: There isn't any screen-relative position associated with a touch in tvOS.
+    
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         for touch in touches {
             let touchPoint = touch.locationInNode(self)

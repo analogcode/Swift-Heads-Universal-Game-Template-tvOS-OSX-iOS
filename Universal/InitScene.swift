@@ -16,7 +16,6 @@ class InitScene: SKScene {
     
     // These functions are overridden by subclasses
     // and suplimented by extensions ("Interaction Extensions" group).
-    // Note: There isn't any screen-relative position associated with a touch in tvOS.
     
     // iOS | tvOS | OS/X have different user interactions.
     // By abstracting out, it opens the door to easily add
