@@ -82,10 +82,11 @@ class GameScene: InitScene {
             userTouching = true
             break
         }
+        
     }
     
     override func userInteractionMoved(location: CGPoint) {
-     
+        // touch/mouse moved
     }
     
     override func userInteractionEnded(location: CGPoint) {
