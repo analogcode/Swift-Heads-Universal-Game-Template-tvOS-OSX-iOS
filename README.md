@@ -28,13 +28,15 @@ This starter template includes four (4) songs created as a part of an open-sourc
 
 This starter template includes Ray Wenderlich's excellent [SKTUtils Library](https://github.com/raywenderlich/SKTUtils). These routines include several helpful custom effects, math, conversion, and other useful Sprite Kit routines.
 
-### Resources for Learning  
+-------------------------------------------------------------------------------
+
+##  Resources for SpriteKit/Game Dev
   
-**Sites for learning Game Dev:**  
-RAY WENDERLICH: [raywenderlich.com](http://raywenderlich.com)   
-CARTOON SMART: [cartoonsmart.com](http://cartoonsmart.com)  
-ERICA SADUN: [ericasadun.com](http://ericasadun.com)  
-APPLE: [developer.apple.com](developer.apple.com/library/ios/)
+**Sites for learning:**  
+Ray Wenderlich: [raywenderlich.com](http://raywenderlich.com)   
+Cartoon Smart: [cartoonsmart.com](http://cartoonsmart.com)  
+Erica Sadun: [ericasadun.com](http://ericasadun.com)  
+Apple: [developer.apple.com/library/ios/](http://developer.apple.com/library/ios/)
 
 **GameplayKit:**  
 [GameplayKit Entity & Component Tutorial](http://www.raywenderlich.com/119959/gameplaykit-tutorial-entity-component-system-agents-goals-behaviors)  
@@ -54,4 +56,3 @@ https://developer.apple.com/library/ios/samplecode/DemoBots/Introduction/Intro.h
 [Mixing SpriteKit with UIKit](https://littlebitesofcocoa.com/8-mixing-spritekit-into-uikit)  
 [SKPhysicsBody Path Generator](http://www.radicalphase.com/pathgen/)  
 [Bitmap Font Generator](https://71squared.com/glyphdesigner)
-
