@@ -53,7 +53,7 @@ class GameScene: InitScene {
     // Demo Specific
     let ship = SKSpriteNode(imageNamed:"Spaceship")
     let coinDropSound = SKAction.playSoundFileNamed("sfx_point.wav", waitForCompletion: false)
-    let musicOn = true
+    let musicOn = false
     let kIntroSongName = "PositiveGameMusic.mp3"
     let sktAudio = SKTAudio()
     var jetParticle = SKEmitterNode()
